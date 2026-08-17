@@ -45,7 +45,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_port=1)
 # ==========================================
 # 🛡️ 1. STRICT CORS POLICY (SECURITY) 🛡️
 # ==========================================
-CORS(app, resources={r"/api/*": {"origins": ["https://video-downloader-pxhf.onrender.com"]}})
+CORS(app, resources={r"/api/*": {"origins": ["https://video-downloader-xi-two.vercel.app/"]}})
 
 compress = Compress()
 compress.init_app(app)
