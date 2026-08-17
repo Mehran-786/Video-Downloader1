@@ -333,7 +333,7 @@ class UIManager {
 // ---------------------------------------------------------
 class DownloadManager {
     constructor() {
-        this.baseUrl = "https://facebook-video-downloader-6d64.onrender.com";
+        this.baseUrl = "https://video-downloader-pxhf.onrender.com";
         this.btn = document.getElementById('downloadBtn');
         this.input = document.getElementById('videoUrl');
         this.status = document.getElementById('statusMessage');
