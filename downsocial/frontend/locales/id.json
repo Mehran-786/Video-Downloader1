@@ -1,0 +1,93 @@
+{
+  "seo": {
+    "indexTitle": "Pengunduh Video HD — Unduh Video Gratis dari Facebook, Instagram, TikTok, YouTube & Lainnya",
+    "indexDesc": "Pengunduh video HD all-in-one gratis untuk Facebook, Instagram, TikTok, YouTube, Snapchat, dan Threads. Unduh video MP4 HD dan audio MP3 tanpa watermark dan tanpa login.",
+    "indexKeywords": "pengunduh video, download video, download video facebook, download video tiktok tanpa watermark, download reels instagram, download video youtube, convert video ke mp3, download mp4 gratis",
+    "aboutTitle": "Tentang Kami - Pengunduh Video HD | Cepat, Aman & Gratis",
+    "aboutDesc": "Pelajari tentang downsocial.net — alat pengunduh video dan audio media sosial terbaik tanpa watermark.",
+    "aboutKeywords": "tentang downsocial, pengunduh video serbaguna, download video facebook, download tiktok tanpa watermark",
+    "privacyTitle": "Kebijakan Privasi - Pengunduh Video HD | Aman & Privat",
+    "privacyDesc": "Kami menjamin privasi pengguna 100% tanpa login, tanpa pelacakan data, dan tanpa penyimpanan file.",
+    "privacyKeywords": "kebijakan privasi, privasi download video, unduh aman, tanpa login",
+    "termsTitle": "Syarat & Ketentuan - Pengunduh Video HD | Kebijakan Penggunaan",
+    "termsDesc": "Baca syarat dan ketentuan kami untuk mengunduh video publik dari media sosial.",
+    "termsKeywords": "syarat dan ketentuan, hak cipta, penggunaan wajar"
+  },
+  "common": {
+    "langBtn": "Bahasa",
+    "extBtn": "Ekstensi",
+    "soonBadge": "Segera",
+    "homeBtn": "Beranda",
+    "footerAbout": "Tentang Kami",
+    "footerContact": "Kontak",
+    "footerPrivacy": "Kebijakan Privasi",
+    "footerTerms": "Syarat & Ketentuan",
+    "copyright": "&copy; 2026 downsocial.net. Hak cipta dilindungi undang-undang.",
+    "emptyLinkAlert": "Silakan tempel tautan terlebih dahulu!",
+    "processing": "Memproses...",
+    "successMsg": "✅ Siap!",
+    "errorServer": "Kesalahan server."
+  },
+  "notifications": {
+    "header": "Pemberitahuan",
+    "newBadge": "1 Baru",
+    "extTitle": "Ekstensi Browser Segera Hadir! 🚀",
+    "time": "Baru saja",
+    "content1": "Ekstensi browser resmi <strong>downsocial.net</strong> sedang dikembangkan!",
+    "content2": "<strong>Keunggulan:</strong><br>✔ Unduh video langsung dari Facebook, Instagram, TikTok, dan YouTube dengan 1 klik.",
+    "content3": "Segera tersedia di Chrome, Edge, dan Firefox!"
+  },
+  "index": {
+    "mainTitle": "Pengunduh Video",
+    "tagline": "Unduh Video, Reels, Shorts & Cerita dari Facebook, Instagram, TikTok, YouTube & Lainnya dalam HD & MP3",
+    "placeholder": "Tempel tautan video Anda di sini (Facebook, Instagram, TikTok, YouTube, Threads, Snapchat)...",
+    "processBtn": "Unduh Video",
+    "readyTitle": "Siap Diunduh!",
+    "infoText": "Pilih format dan kualitas yang Anda inginkan di bawah ini.",
+    "dlVidHigh": "Video (HD)",
+    "dlVidNorm": "Video (Normal)",
+    "dlAudHigh": "Audio (HQ MP3)",
+    "dlAudNorm": "Audio (Normal MP3)",
+    "f1Title": "Unduhan Cepat",
+    "f1Desc": "Dapatkan video dan audio dalam hitungan detik dengan kecepatan tinggi.",
+    "moreDetails": "Rincian Lebih Lanjut",
+    "showLess": "Tampilkan Lebih Sedikit",
+    "f1Content": "<h4><i class=\"fas fa-shipping-fast\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> Kecepatan Ekstra Cepat</h4><p>Unduh klip TikTok, Reels Instagram, Shorts YouTube, dan video Facebook tanpa jeda atau buffering.</p>",
+    "f2Title": "Aman & Privat",
+    "f2Desc": "Tanpa login, tanpa pelacakan data — privasi Anda 100% aman.",
+    "f2Content": "<h4><i class=\"fas fa-lock\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> 100% Anonim</h4><p>Kami tidak meminta akun atau kata sandi dan tidak menyimpan file di server.</p>",
+    "f3Title": "All-in-One HD",
+    "f3Desc": "Facebook • Instagram • TikTok • YouTube • Snapchat • Threads",
+    "f3Content": "<h4><i class=\"fas fa-photo-video\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> Satu Alat untuk Semua Platform</h4><p>Unduh dalam MP4 1080p HD atau konversikan ke audio MP3 asli hanya dengan satu klik.</p>",
+    "howToSectionTitle": "Cara Menggunakan Pengunduh All-in-One",
+    "howToContent": "<h3>Langkah 1: Salin tautan video</h3><p>Buka aplikasi dan salin tautan video.</p><h3>Langkah 2: Tempel tautan</h3><p>Tempel URL di kotak pencarian di atas.</p><h3>Langkah 3: Klik Unduh</h3><p>Pilih kualitas video HD atau format audio MP3.</p>",
+    "howToHiddenContent": "<h3>Langkah 4: Simpan file</h3><p>File akan tersimpan langsung ke galeri atau folder unduhan perangkat Anda tanpa watermark.</p>",
+    "readMoreBtn": "Baca Lebih Banyak",
+    "readLessBtn": "Baca Lebih Sedikit",
+    "faqTitle": "Pertanyaan Umum (FAQ)",
+    "faqs": [
+      {
+        "q": "Q1. Apakah ini gratis?",
+        "a": "<p>Ya, downsocial.net 100% gratis dan tanpa batas.</p>"
+      },
+      {
+        "q": "Q2. Platform apa saja yang didukung?",
+        "a": "<p>Facebook, Instagram, TikTok (tanpa watermark), YouTube, Snapchat, dan Threads.</p>"
+      },
+      {
+        "q": "Q3. Bisakah mengonversi ke MP3?",
+        "a": "<p>Ya, klik tombol 'Audio (HQ MP3)' untuk mengunduh audio MP3 murni.</p>"
+      }
+    ],
+    "seoArticle": "<h2>Pengunduh Video & Audio Terbaik untuk Media Sosial</h2><p>Simpan video dan musik favorit Anda dari Facebook, Instagram, TikTok, dan YouTube dalam format HD dan MP3 dengan cepat dan aman.</p>"
+  },
+  "about": {
+    "content": "<h1>Tentang downsocial — Pengunduh Video Serbaguna</h1><p class=\"article-intro\">downsocial.net adalah alat online gratis untuk mengunduh video dan audio dari berbagai platform media sosial tanpa watermark.</p>"
+  },
+  "privacy": {
+    "content": "<h1>Kebijakan Privasi – downsocial</h1><p class=\"article-intro\">Kami sangat menjaga privasi Anda: tanpa akun, tanpa pelacakan riwayat, dan tanpa penyimpanan file.</p>"
+  },
+  "terms": {
+    "content": "<h1>Syarat & Ketentuan – downsocial</h1><p class=\"article-intro\">Layanan ini ditujukan untuk penggunaan pribadi dan wajar secara offline.</p>"
+  }
+}

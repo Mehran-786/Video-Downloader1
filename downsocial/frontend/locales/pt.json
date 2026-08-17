@@ -1,0 +1,93 @@
+{
+  "seo": {
+    "indexTitle": "Baixador de Vídeos HD — Baixe Vídeos Grátis do Facebook, Instagram, TikTok, YouTube e Mais",
+    "indexDesc": "Baixador de vídeos HD tudo-em-um gratuito para Facebook, Instagram, TikTok, YouTube, Snapchat e Threads. Baixe vídeos MP4 em HD e áudio MP3 sem marca d'água e sem login.",
+    "indexKeywords": "baixador de videos, baixar video, baixar video do facebook, baixar video do tiktok, baixar reels do instagram, baixar video do youtube, converter video em mp3, baixar mp4 gratis",
+    "aboutTitle": "Sobre Nós - Baixador de Vídeos HD | Rápido, Seguro e Gratuito",
+    "aboutDesc": "Conheça a missão do downsocial.net em fornecer o melhor baixador de vídeos tudo-em-um sem marcas d'água.",
+    "aboutKeywords": "sobre downsocial, baixador de video tudo em um, baixar video facebook, baixar tiktok sem marca dagua",
+    "privacyTitle": "Política de Privacidade - Baixador de Vídeos HD | Seguro e Privado",
+    "privacyDesc": "Garantimos total privacidade, sem login, sem rastreamento de dados e com downloads seguros.",
+    "privacyKeywords": "politica de privacidade, privacidade baixador de video, download seguro",
+    "termsTitle": "Termos e Condições - Baixador de Vídeos HD | Uso Justo",
+    "termsDesc": "Leia nossos termos de uso para download de vídeos públicos das redes sociais.",
+    "termsKeywords": "termos e condicoes, direitos autorais, uso justo"
+  },
+  "common": {
+    "langBtn": "Idioma",
+    "extBtn": "Extensão",
+    "soonBadge": "Em Breve",
+    "homeBtn": "Início",
+    "footerAbout": "Sobre Nós",
+    "footerContact": "Contato",
+    "footerPrivacy": "Política de Privacidade",
+    "footerTerms": "Termos e Condições",
+    "copyright": "&copy; 2026 downsocial.net. Todos os direitos reservados.",
+    "emptyLinkAlert": "Por favor, cole um link primeiro!",
+    "processing": "Processando...",
+    "successMsg": "✅ Pronto!",
+    "errorServer": "Erro no servidor."
+  },
+  "notifications": {
+    "header": "Notificações",
+    "newBadge": "1 Novo",
+    "extTitle": "Extensão do Navegador em Breve! 🚀",
+    "time": "Agora mesmo",
+    "content1": "Nossa extensão oficial <strong>downsocial.net</strong> para navegadores está sendo desenvolvida!",
+    "content2": "<strong>Vantagens:</strong><br>✔ Baixe vídeos com 1 clique direto do Facebook, Instagram, TikTok e YouTube.",
+    "content3": "Em breve no Chrome, Edge e Firefox!"
+  },
+  "index": {
+    "mainTitle": "Baixador de Vídeos",
+    "tagline": "Baixe Vídeos, Reels, Shorts e Stories do Facebook, Instagram, TikTok, YouTube e Mais em HD e MP3",
+    "placeholder": "Cole o link do seu vídeo aqui (Facebook, Instagram, TikTok, YouTube, Threads, Snapchat)...",
+    "processBtn": "Baixar Vídeo",
+    "readyTitle": "Pronto para Baixar!",
+    "infoText": "Escolha sua qualidade e formato abaixo.",
+    "dlVidHigh": "Vídeo (HD)",
+    "dlVidNorm": "Vídeo (Normal)",
+    "dlAudHigh": "Áudio (HQ MP3)",
+    "dlAudNorm": "Áudio (Normal MP3)",
+    "f1Title": "Download Rápido",
+    "f1Desc": "Baixe vídeos e áudios em segundos com máxima velocidade.",
+    "moreDetails": "Mais Detalhes",
+    "showLess": "Mostrar Menos",
+    "f1Content": "<h4><i class=\"fas fa-shipping-fast\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> Velocidade Máxima</h4><p>Baixe vídeos do TikTok, Reels do Instagram, shorts do YouTube e posts do Facebook instantaneamente.</p>",
+    "f2Title": "Seguro e Privado",
+    "f2Desc": "Sem cadastro, sem rastreamento — privacidade 100% garantida.",
+    "f2Content": "<h4><i class=\"fas fa-lock\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> 100% Seguro e Anônimo</h4><p>Não solicitamos senhas nem armazenamos arquivos nos servidores.</p>",
+    "f3Title": "Tudo em Um HD",
+    "f3Desc": "Facebook • Instagram • TikTok • YouTube • Snapchat • Threads",
+    "f3Content": "<h4><i class=\"fas fa-photo-video\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> Suporte Multiplataforma</h4><p>Baixe em MP4 Full HD ou extraia áudio MP3 autêntico com um único clique.</p>",
+    "howToSectionTitle": "Como Usar o Baixador Tudo-em-Um",
+    "howToContent": "<h3>Passo 1: Copie o link do vídeo</h3><p>Abra o app e copie o link do vídeo.</p><h3>Passo 2: Cole o link</h3><p>Cole a URL na caixa de pesquisa acima.</p><h3>Passo 3: Clique em Baixar</h3><p>Escolha entre vídeo HD ou áudio MP3.</p>",
+    "howToHiddenContent": "<h3>Passo 4: Salve o arquivo</h3><p>O arquivo é salvo diretamente no seu celular ou computador sem marcas d'água.</p>",
+    "readMoreBtn": "Ler Mais",
+    "readLessBtn": "Ler Menos",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faqs": [
+      {
+        "q": "Q1. É gratuito?",
+        "a": "<p>Sim, downsocial é 100% gratuito e ilimitado.</p>"
+      },
+      {
+        "q": "Q2. Quais redes são suportadas?",
+        "a": "<p>Facebook, Instagram, TikTok (sem marca d'água), YouTube, Snapchat e Threads.</p>"
+      },
+      {
+        "q": "Q3. Posso converter em MP3?",
+        "a": "<p>Sim, basta clicar em 'Áudio (HQ MP3)'.</p>"
+      }
+    ],
+    "seoArticle": "<h2>O Melhor Baixador de Vídeos para Redes Sociais</h2><p>Baixe vídeos e áudios do Facebook, Instagram, TikTok e YouTube em HD e MP3 com total facilidade.</p>"
+  },
+  "about": {
+    "content": "<h1>Sobre o downsocial — Baixador de Vídeos Tudo-em-Um</h1><p class=\"article-intro\">downsocial.net é uma ferramenta online gratuita para baixar vídeos e áudios de redes sociais sem marca d'água.</p>"
+  },
+  "privacy": {
+    "content": "<h1>Política de Privacidade – downsocial</h1><p class=\"article-intro\">Respeitamos sua privacidade: sem cadastro, sem rastreamento e sem armazenamento de mídias.</p>"
+  },
+  "terms": {
+    "content": "<h1>Termos e Condições – downsocial</h1><p class=\"article-intro\">Serviço destinado ao uso pessoal e justo de vídeos públicos.</p>"
+  }
+}

@@ -1,0 +1,29 @@
+# downsocial.net - Free All-in-One Online Video Downloader
+
+> downsocial.net is a free, fast, and secure web application to download high-definition (HD) videos, reels, shorts, stories, and MP3 audio from Facebook, Instagram, TikTok, YouTube, Snapchat, and Threads.
+
+## Key Features & Capabilities
+- **Multi-Platform Support**: Download videos from Facebook (posts, reels, stories, live recordings), Instagram (reels, stories, posts), TikTok (watermark-free), YouTube (shorts, videos), Snapchat (spotlights, stories), and Threads.
+- **Multiple Formats**: Download in MP4 Video (1080p Full HD, 720p HD, SD, 4K when available) or convert/extract to MP3 Audio (192kbps HQ, 128kbps normal).
+- **100% Free & Unlimited**: No subscriptions, no download caps, no payment required.
+- **Zero Registration & Full Privacy**: No login, email, or personal identity required. All URL requests are processed in memory and never stored or tracked.
+- **No Watermarks**: Delivers clean, original video and audio media files.
+- **Cross-Platform Compatibility**: Fully responsive web tool that runs on any browser across Android, iPhone (iOS), iPad, Windows, macOS, and Linux without installing software or extensions.
+- **Multilingual**: Supports 10 languages: English (en), Spanish (es), French (fr), Hindi (hi), Arabic (ar), Portuguese (pt), Bengali (bn), Russian (ru), Indonesian (id), and Chinese (zh).
+
+## Usage Instructions
+1. Copy the public video link from Facebook, Instagram, TikTok, YouTube, Snapchat, or Threads.
+2. Paste the link into the URL input on https://downsocial.net
+3. Click "Download Video" to process the link.
+4. Select your preferred format: Video (HD), Video (Normal), Audio (HQ MP3), or Audio (Normal MP3).
+5. The media file downloads directly to your device.
+
+## API & Technology Overview
+- Frontend: High-performance Vanilla JavaScript, CSS3 Glassmorphism UI, Responsive Mobile & Desktop layout.
+- Backend: Python Flask API engine with yt-dlp metadata extraction and real-time FFmpeg audio transcoding.
+- Domain: https://downsocial.net
+
+## Important Legal & Ethical Guidelines
+- Only download publicly accessible media that you own or have explicit permission to save.
+- All downloads are for personal, fair-use, and offline viewing only.
+- downsocial.net is an independent utility tool not affiliated with Meta, ByteDance, Google, or Snap Inc.

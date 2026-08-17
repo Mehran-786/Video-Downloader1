@@ -1,0 +1,93 @@
+{
+  "seo": {
+    "indexTitle": "高清视频下载器 — 免费下载 Facebook、Instagram、TikTok、YouTube 等平台视频",
+    "indexDesc": "全能免费高清视频下载器，支持 Facebook、Instagram、TikTok、YouTube、Snapchat 和 Threads。无水印、无需登录，即时下载高清 MP4 视频及 MP3 音频。",
+    "indexKeywords": "视频下载器, 下载视频, facebook视频下载, tiktok无水印下载, instagram reels下载, youtube视频下载, 视频转mp3, 免费mp4下载",
+    "aboutTitle": "关于我们 - 高清视频下载器 | 快速、安全、免费",
+    "aboutDesc": "了解 downsocial.net 平台，提供无水印、无需登录的高清视频与 MP3 音频下载服务。",
+    "aboutKeywords": "关于 downsocial, 全能视频下载器, 免费下载视频, tiktok无水印",
+    "privacyTitle": "隐私政策 - 高清视频下载器 | 安全且隐私保护",
+    "privacyDesc": "我们严格保护用户隐私，无需注册、零数据跟踪且不存储任何下载文件。",
+    "privacyKeywords": "隐私政策, 安全下载, 隐私保护, 无需注册",
+    "termsTitle": "服务条款 - 高清视频下载器 | 合理使用政策",
+    "termsDesc": "阅读 downsocial.net 的使用条款与版权合规政策。",
+    "termsKeywords": "服务条款, 版权合规, 使用政策"
+  },
+  "common": {
+    "langBtn": "语言",
+    "extBtn": "扩展程序",
+    "soonBadge": "即将推出",
+    "homeBtn": "首页",
+    "footerAbout": "关于我们",
+    "footerContact": "联系我们",
+    "footerPrivacy": "隐私政策",
+    "footerTerms": "条款和条件",
+    "copyright": "&copy; 2026 downsocial.net. 保留所有权利。",
+    "emptyLinkAlert": "请先粘贴视频链接！",
+    "processing": "处理中...",
+    "successMsg": "✅ 准备就绪！",
+    "errorServer": "服务器错误。"
+  },
+  "notifications": {
+    "header": "通知",
+    "newBadge": "1 条新通知",
+    "extTitle": "浏览器扩展即将上线！ 🚀",
+    "time": "刚刚",
+    "content1": "我们官方的 <strong>downsocial.net 浏览器扩展</strong> 正在开发中！",
+    "content2": "<strong>功能优势：</strong><br>✔ 一键直接下载 Facebook、Instagram、TikTok 及 YouTube 视频，无需复制链接。",
+    "content3": "即将在 Chrome、Edge 和 Firefox 上线！"
+  },
+  "index": {
+    "mainTitle": "视频下载器",
+    "tagline": "免费从 Facebook、Instagram、TikTok、YouTube 等平台下载高清视频、Reels、Shorts、快拍及 MP3 音频",
+    "placeholder": "在此粘贴视频链接 (Facebook、Instagram、TikTok、YouTube、Threads、Snapchat)...",
+    "processBtn": "下载视频",
+    "readyTitle": "准备下载！",
+    "infoText": "在下方选择您偏好的画质与格式。",
+    "dlVidHigh": "视频 (高清 HD)",
+    "dlVidNorm": "视频 (标清)",
+    "dlAudHigh": "音频 (HQ MP3)",
+    "dlAudNorm": "音频 (普通 MP3)",
+    "f1Title": "极速下载",
+    "f1Desc": "高速解析引擎，数秒内完成视频与音频提取。",
+    "moreDetails": "更多详情",
+    "showLess": "收起详情",
+    "f1Content": "<h4><i class=\"fas fa-shipping-fast\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> 极速高清下载</h4><p>快速下载 TikTok、Instagram Reels、YouTube Shorts 及 Facebook 视频，无卡顿流畅体验。</p>",
+    "f2Title": "安全与隐私",
+    "f2Desc": "无需登录，零数据跟踪 — 全面保障您的个人隐私。",
+    "f2Content": "<h4><i class=\"fas fa-lock\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> 100% 匿名与安全</h4><p>无需提供任何账号信息，服务器不保存任何下载媒体文件。</p>",
+    "f3Title": "全能多平台 HD",
+    "f3Desc": "Facebook • Instagram • TikTok • YouTube • Snapchat • Threads",
+    "f3Content": "<h4><i class=\"fas fa-photo-video\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> 一站式多平台支持</h4><p>支持下载 1080p 高清 MP4 视频，或一键转换为高保真 MP3 音频格式。</p>",
+    "howToSectionTitle": "如何使用全能视频下载器",
+    "howToContent": "<h3>第 1 步：复制视频链接</h3><p>在社交平台中点击分享并复制视频链接。</p><h3>第 2 步：粘贴链接</h3><p>将链接粘贴到上方的输入框中。</p><h3>第 3 步：点击下载</h3><p>选择高清视频或 MP3 音频格式。</p>",
+    "howToHiddenContent": "<h3>第 4 步：保存到设备</h3><p>文件将直接保存到您的设备相册或下载文件夹中，无任何水印。</p>",
+    "readMoreBtn": "阅读更多",
+    "readLessBtn": "收起",
+    "faqTitle": "常见问题 (FAQ)",
+    "faqs": [
+      {
+        "q": "Q1. 该工具是免费的吗？",
+        "a": "<p>是的，downsocial.net 完全免费且无限制。</p>"
+      },
+      {
+        "q": "Q2. 支持哪些平台？",
+        "a": "<p>支持 Facebook、Instagram、TikTok（无水印）、YouTube、Snapchat 和 Threads。</p>"
+      },
+      {
+        "q": "Q3. 可以转换为 MP3 吗？",
+        "a": "<p>可以，只需点击“音频 (HQ MP3)”即可提取纯音频文件。</p>"
+      }
+    ],
+    "seoArticle": "<h2>最佳全能社交媒体视频与音频下载器</h2><p>快速、安全地从 Facebook、Instagram、TikTok 及 YouTube 下载高清视频和 MP3 音乐，畅享离线观看体验。</p>"
+  },
+  "about": {
+    "content": "<h1>关于 downsocial — 全能视频与音频下载器</h1><p class=\"article-intro\">downsocial.net 是一个免费的在线多平台工具，支持无水印高速下载各大社交平台的视频与音频。</p>"
+  },
+  "privacy": {
+    "content": "<h1>隐私政策 – downsocial</h1><p class=\"article-intro\">我们严格保障用户隐私：无需注册、不跟踪任何历史记录且不存储下载文件。</p>"
+  },
+  "terms": {
+    "content": "<h1>服务条款 – downsocial</h1><p class=\"article-intro\">本服务仅供个人离线合理使用。</p>"
+  }
+}

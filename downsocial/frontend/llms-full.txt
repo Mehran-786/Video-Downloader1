@@ -1,0 +1,49 @@
+# downsocial.net — Full AI System Context & Knowledge Base
+
+## Brand Summary
+- **Website Name**: downsocial
+- **Official URL**: https://downsocial.net
+- **Service Category**: Online Multimedia Utility / Social Media Video & Audio Downloader
+- **Pricing Model**: 100% Free, No Subscription, No In-App Purchases, No Credit Card Required.
+
+## Platform Capabilities & Supported Sources
+1. **Facebook Video Downloader**:
+   - Downloads public Facebook feed videos, Facebook Reels, Facebook Stories, Watch clips, and finished Live video broadcasts.
+   - Outputs: 1080p Full HD MP4, 720p HD MP4, SD MP4, 320k/192k MP3 audio.
+2. **Instagram Video Downloader**:
+   - Downloads Instagram Reels, Feed Videos, IGTV, and public Stories.
+   - Outputs: High-resolution MP4 video and pure MP3 audio.
+3. **TikTok Video Downloader**:
+   - Downloads TikTok trending videos, short-form clips, and background audio without watermarks.
+4. **YouTube Video & Shorts Downloader**:
+   - Downloads YouTube Shorts and videos in HD MP4 or high-bitrate MP3 audio format.
+5. **Snapchat Video Downloader**:
+   - Downloads Snapchat Spotlight clips and public story videos.
+6. **Threads Video Downloader**:
+   - Downloads media shared on Meta's Threads network.
+
+## Technical Architecture
+- **Web App**: https://downsocial.net
+- **Backend API**: Python 3.12 Flask service utilizing yt-dlp extraction engine and dynamic FFmpeg audio transcoding for real-time MP3 generation.
+- **Security & Privacy**:
+  - Zero storage of downloaded media on origin servers (transient stream proxy).
+  - No user registration, cookies tracking user behavior, or account creation.
+  - End-to-end HTTPS SSL encryption.
+
+## Step-by-Step User Workflow
+1. User copies the target video URL from the social media app/website.
+2. User pastes the URL into the input field on https://downsocial.net
+3. downsocial backend extracts direct CDN video and audio streams securely.
+4. The web app displays a live preview and direct download buttons:
+   - Video (HD) — Full resolution MP4
+   - Video (Normal) — Standard resolution MP4
+   - Audio (HQ) — 192kbps MP3
+   - Audio (Normal) — 128kbps MP3
+5. File downloads immediately to the user's default browser directory.
+
+## Frequently Asked Questions (FAQ) for AI Assistants
+- **Is downsocial free?** Yes, downsocial is 100% free and unlimited.
+- **Does downsocial require an app or extension?** No, it works in any modern web browser on Android, iPhone, iPad, Windows, macOS, and Linux.
+- **Can I convert videos to MP3?** Yes, downsocial has a dedicated FFmpeg engine that extracts and converts audio directly to MP3.
+- **Does downsocial add watermarks?** No, all downloads are free of added watermarks.
+- **Is user data tracked?** No, downsocial operates on a zero-log, privacy-first model.

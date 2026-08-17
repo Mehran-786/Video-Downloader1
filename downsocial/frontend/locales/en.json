@@ -1,0 +1,89 @@
+{
+  "seo": {
+    "indexTitle": "Video Downloader HD — Download Videos Free from Facebook, Instagram, TikTok, YouTube & More",
+    "indexDesc": "Fast, safe, and all-in-one HD video downloader for Facebook, Instagram, TikTok, YouTube, Snapchat & Threads. Download HD MP4 videos & MP3 audio with no login or watermark.",
+    "indexKeywords": "video downloader, download video, facebook video downloader, instagram video downloader, tiktok video downloader, youtube video downloader, snapchat video downloader, threads video downloader, download mp4, convert video to mp3, free video downloader online",
+    "aboutTitle": "About Us - Video Downloader HD | Fast, Secure & Free All-in-One Downloader",
+    "aboutDesc": "Learn about our mission to provide the best all-in-one video downloader. Fast, secure, and free HD video & MP3 downloads without watermark for Facebook, Instagram, TikTok, YouTube, and Threads.",
+    "aboutKeywords": "about video downloader, downsocial about, all in one video downloader, download facebook video, download tiktok video, download instagram reels, download youtube video",
+    "privacyTitle": "Privacy Policy - Video Downloader HD | Safe, Secure & Private",
+    "privacyDesc": "Read our privacy policy to understand how we protect your data. Our video downloader ensures complete privacy with no login required, zero data tracking, and secure media streams.",
+    "privacyKeywords": "privacy policy, video downloader privacy, secure downloads, no data tracking, safe video downloader, downsocial privacy",
+    "termsTitle": "Terms & Conditions - Video Downloader HD | Usage & Copyright Policy",
+    "termsDesc": "Read our usage policy and terms and conditions for using the video downloader. Understand user responsibilities, fair use, and copyright compliance for downloading social media videos.",
+    "termsKeywords": "video downloader terms, usage policy, legal disclaimer, download videos terms, video downloader policy, copyright compliance"
+  },
+  "common": {
+    "langBtn": "Language",
+    "extBtn": "Extension",
+    "soonBadge": "Soon",
+    "homeBtn": "Home",
+    "footerAbout": "About Section",
+    "footerContact": "Contact",
+    "footerPrivacy": "Privacy Policy",
+    "footerTerms": "Terms & Conditions",
+    "copyright": "&copy; 2026 downsocial.net. All rights reserved.",
+    "emptyLinkAlert": "Please paste a link first!",
+    "processing": "Processing...",
+    "successMsg": "✅ Ready!",
+    "errorServer": "Server error."
+  },
+  "notifications": {
+    "header": "Notifications",
+    "newBadge": "1 New",
+    "extTitle": "Browser Extension Coming Soon! 🚀",
+    "time": "Just now",
+    "content1": "We are thrilled to announce that our official <strong>downsocial.net Browser Extension</strong> is currently in development!",
+    "content2": "<strong>Why do you need it?</strong><br>✔ Download videos directly from Facebook, Instagram, TikTok, YouTube, and Threads without copying and pasting links.<br>✔ A dedicated download button will appear below every video on your feed.<br>✔ 1-Click HD downloads right from your browser.",
+    "content3": "Stay tuned! It will be available for Chrome, Edge, and Firefox very soon."
+  },
+  "index": {
+    "mainTitle": "Video Downloader",
+    "tagline": "Download Videos, Reels, Shorts & Stories from Facebook, Instagram, TikTok, YouTube & More in HD & MP3",
+    "placeholder": "Paste your video link here (Facebook, Instagram, TikTok, YouTube, Threads, Snapchat)...",
+    "processBtn": "Download Video",
+    "readyTitle": "Ready to Download!",
+    "infoText": "Choose your preferred quality below.",
+    "dlVidHigh": "Video (HD)",
+    "dlVidNorm": "Video (Normal)",
+    "dlAudHigh": "Audio (HQ MP3)",
+    "dlAudNorm": "Audio (Normal MP3)",
+    "f1Title": "Fast Download",
+    "f1Desc": "Nobody enjoys waiting. That’s why the entire tool is built around speed and instant extraction.",
+    "moreDetails": "More Details",
+    "showLess": "Show Less",
+    "f1Content": "<h4><i class=\"fas fa-shipping-fast\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> Lightning-Fast Video & Audio Download</h4><p>Whether you’re saving a short TikTok clip, an Instagram Reel, or a full-length YouTube/Facebook video, download options appear in seconds.</p><p>Our backend extracts media streams instantly without buffer delays. Even large 1080p and 4K files process smoothly.</p><p>Works seamlessly across smartphones, tablets, laptops, and desktops.</p>",
+    "f2Title": "Safe & Secure",
+    "f2Desc": "Your privacy isn’t something you should trade for convenience. Zero tracking, zero storage.",
+    "f2Content": "<h4><i class=\"fas fa-lock\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> 100% Safe, Private & Anonymous</h4><p>We never ask for account login, email, or passwords. You download directly and anonymously.</p><p>There is zero tracking, no analytics tied to personal identity, and no media files saved on our servers.</p>",
+    "f3Title": "All-in-One HD",
+    "f3Desc": "Facebook • Instagram • TikTok • YouTube • Snapchat • Threads",
+    "f3Content": "<h4><i class=\"fas fa-photo-video\" style=\"font-size: 18px; color: #4dabf7; margin-right: 5px;\"></i> All-in-One Multi-Platform Downloader</h4><p>Paste any URL from Facebook, Instagram, TikTok, YouTube Shorts, Snapchat, or Threads.</p><p>Download in crisp 1080p HD MP4 video or convert to genuine 192kbps MP3 audio with one click.</p><p>One powerful tool handles all your social media downloads without switching websites.</p>",
+    "howToSectionTitle": "How to Use the All-in-One Video Downloader",
+    "howToContent": "<h3>Step 1: Copy the video link</h3><p>Open Facebook, Instagram, TikTok, YouTube, Snapchat, or Threads, find your video, tap Share, and select “Copy Link.”</p><ul class=\"how-to-list\"><li><i class=\"fas fa-check\"></i> The URL is now copied to your clipboard.</li></ul><h3>Step 2: Paste the link into the downloader</h3><p>Paste the copied URL into the search box above.</p><ul class=\"how-to-list\"><li><i class=\"fas fa-check\"></i> The tool automatically recognizes the platform (Facebook, Insta, TikTok, YT, etc.).</li></ul><h3>Step 3: Click the Download button</h3><p>Click 'Download Video' to extract the available formats and resolutions.</p><ul class=\"how-to-list\"><li><i class=\"fas fa-check\"></i> Video preview and format buttons will appear instantly.</li></ul><h3>Step 4: Choose your format (Video HD or Audio MP3)</h3><p>Pick HD MP4 for full video quality, or MP3 if you only need the audio soundtrack.</p><ul class=\"how-to-list\"><li><i class=\"fas fa-check\"></i> Real-time audio transcoding ensures authentic MP3 audio files.</li></ul>",
+    "howToHiddenContent": "<h3>Step 5: Save the video to your device</h3><p>Click your chosen download button and the file will save directly to your device.</p><ul class=\"how-to-list\"><li><i class=\"fas fa-check\"></i> On mobile, check your Gallery or Downloads folder.</li><li><i class=\"fas fa-check\"></i> On desktop, find the file in your browser's default Downloads directory.</li></ul><p class=\"pro-tip\">Pro Tip: If you want background music or podcasts, choose the HQ MP3 option for crystal-clear sound.</p><hr class=\"section-divider\"><h3>Safe & Secure Downloading</h3><p>No login is required for public videos. Links are processed transiently in memory and never archived.</p><ul class=\"how-to-list\"><li><i class=\"fas fa-shield-alt\"></i> Completely safe, SSL-encrypted, and private.</li></ul><h3>Fast & Reliable Across All Devices</h3><ul class=\"how-to-list\"><li><i class=\"fas fa-bolt\"></i> Works on Chrome, Safari, Firefox, Edge, Android, iOS, Windows, and Mac.</li><li><i class=\"fas fa-bolt\"></i> Supports reels, stories, shorts, spotlights, and standard video posts.</li></ul><h3>Why Choose downsocial?</h3><ul class=\"how-to-list\"><li><i class=\"fas fa-star\"></i> Download in Full HD (1080p, 2K, 4K) or crystal-clear MP3.</li><li><i class=\"fas fa-star\"></i> Zero watermarks, zero pop-up ads, and zero registration.</li><li><i class=\"fas fa-star\"></i> 100% free and unlimited.</li></ul>",
+    "readMoreBtn": "Read More",
+    "readLessBtn": "Read Less",
+    "faqTitle": "Frequently Asked Questions (FAQ)",
+    "faqs": [
+      { "q": "Q1. Is it free and legal to download online videos?", "a": "<p>Our tool is 100% free with unlimited downloads. You should only download public videos that you have permission to use or save for personal, offline fair-use viewing.</p>" },
+      { "q": "Q2. Do I need to install an app or software?", "a": "<p>No installation is needed. downsocial is 100% browser-based and works on any smartphone, tablet, or computer.</p>" },
+      { "q": "Q3. Which platforms are supported?", "a": "<p>You can download videos, reels, stories, and shorts from Facebook, Instagram, TikTok (without watermark), YouTube, Snapchat, and Threads.</p>" },
+      { "q": "Q4. Can I download in Full HD (1080p, 2K, or 4K)?", "a": "<p>Yes. The downloader fetches the highest resolution available from the original media source, up to 4K when available.</p>" },
+      { "q": "Q5. How do I convert social media videos to MP3 audio?", "a": "<p>Simply paste your video link and click the 'Audio (HQ MP3)' button. Our built-in audio engine extracts and transcodes the sound into a genuine MP3 file.</p>" },
+      { "q": "Q6. Will the downloaded video have a watermark?", "a": "<p>No. We do not add any watermarks. TikTok and social videos are downloaded clean and in their original state.</p>" },
+      { "q": "Q7. Where do downloaded videos get saved?", "a": "<p>On mobile phones, files save directly to your Downloads folder or Gallery. On PC/Mac, they appear in your browser's Downloads folder.</p>" },
+      { "q": "Q8. Is my personal data and privacy protected?", "a": "<p>Yes. We operate on a strict zero-log policy. We do not require accounts, we do not store your media, and we never track your download history.</p>" }
+    ],
+    "seoArticle": "<h2>The Ultimate All-in-One Video Downloader for Social Media</h2><p>Saving videos from your favorite social media platforms used to require multiple confusing apps. With downsocial.net, you can download high-definition videos, reels, shorts, stories, and MP3 audio from Facebook, Instagram, TikTok, YouTube, Snapchat, and Threads in seconds.</p><p>Speed and simplicity are at our core. Paste a link, select your desired resolution or audio format, and enjoy instant offline viewing without watermarks or account signups.</p><h3>Supported Platforms & Content Types</h3><p>Our intelligent extraction engine supports all major media types:</p><ul><li><strong>Facebook:</strong> Feed videos, Reels, Stories, and finished Live streams.</li><li><strong>Instagram:</strong> Reels, Feed posts, IGTV, and public Stories.</li><li><strong>TikTok:</strong> Trending clips and viral videos downloaded clean without watermarks.</li><li><strong>YouTube:</strong> Shorts and video clips in full 1080p HD or MP3 audio.</li><li><strong>Snapchat:</strong> Public Spotlight videos and stories.</li><li><strong>Threads:</strong> Media clips and shared videos.</li></ul><h3>Real-Time MP3 Audio Conversion</h3><p>Need just the soundtrack, background music, or podcast audio? Our built-in FFmpeg audio engine converts video audio on the fly into high-fidelity 192kbps MP3 format, compatible with all mobile and desktop music players.</p><h3>Privacy-First, 100% Free & Unlimited</h3><p>We believe online utility tools should respect user privacy. We never ask for logins, never track your activity, and never add watermarks. Enjoy unlimited free downloads anytime, anywhere.</p>"
+  },
+  "about": {
+    "content": "<h1>About downsocial — Free All-in-One Video & Audio Downloader</h1><p class=\"article-intro\">Welcome to downsocial.net. We built this platform with one straightforward mission: give everyone a fast, secure, and effortless way to download videos, reels, shorts, and MP3 audio from Facebook, Instagram, TikTok, YouTube, Snapchat, and Threads — without watermarks, without sign-ups, and 100% free.</p><h2>Our Mission</h2><p>We believe that saving publicly available videos for offline learning, travel, and personal memories should be simple and private. Existing downloaders are often cluttered with spam, demand software installations, or degrade video quality. downsocial eliminates all friction with a clean, fast, and secure browser-based tool.</p><h2>Multi-Platform Support</h2><p>downsocial handles all your favorite platforms in one place: Facebook, Instagram Reels, TikTok (no watermark), YouTube Shorts, Snapchat Spotlights, and Threads. You can choose crisp 1080p HD MP4 video or crystal-clear 192kbps MP3 audio.</p><h2>Zero Tracking & Total Privacy</h2><p>We operate on a zero-knowledge architecture. No account registration, no cookies tracking your downloads, and no media files stored on our servers. Your downloads remain 100% private and secure.</p>"
+  },
+  "privacy": {
+    "content": "<h1>Privacy Policy – downsocial Video Downloader HD</h1><p style=\"font-size: 13px; color: #94a3b8; margin-bottom: 25px;\">Last Updated: April 21, 2026</p><p class=\"article-intro\">At downsocial.net, user privacy is our highest priority. This Privacy Policy details the data protection principles of our free online video downloader for Facebook, Instagram, TikTok, YouTube, Snapchat, and Threads.</p><h2>1. Independent Utility Tool Disclaimer</h2><p>downsocial operates as an independent third-party tool. We are NOT affiliated with, sponsored by, or endorsed by Meta Platforms (Facebook, Instagram, Threads), ByteDance (TikTok), Google (YouTube), or Snap Inc. (Snapchat). All platform trademarks belong to their respective owners.</p><h2>2. Zero Personal Data Collection</h2><p>We do not collect personal information, require account creation, or log download histories. Video URLs submitted for download are processed transiently in memory to establish a direct media stream and are discarded immediately.</p><h2>3. No File Storage</h2><p>We do not host or archive downloaded media on our servers. All downloads are streamed directly from origin CDN servers to your device.</p><h2>4. Security & Encryption</h2><p>All traffic between your browser and downsocial is secured with 256-bit SSL encryption (HTTPS).</p>"
+  },
+  "terms": {
+    "content": "<h1>Terms & Conditions — downsocial Video Downloader</h1><p style=\"font-size: 13px; color: #94a3b8; margin-bottom: 25px;\">Last Updated: April 21, 2026</p><p class=\"article-intro\">By accessing and using downsocial.net, you agree to these Terms and Conditions. Please review them carefully.</p><h2>1. Permitted Personal Use</h2><p>downsocial is intended for personal, non-commercial, and fair-use offline viewing of public social media videos. Users are solely responsible for ensuring they possess the right or permission to download the content.</p><h2>2. Copyright & Fair Use</h2><p>We respect intellectual property rights. Do not use downsocial to infringe copyrights, re-upload media commercially, or distribute protected material without authorization.</p><h2>3. Service Availability</h2><p>The service is provided \"as is\" without warranties. We do not store downloaded files on our servers and act purely as a technical stream proxy.</p>"
+  }
+}
