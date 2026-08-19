@@ -45,7 +45,14 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_port=1)
 # ==========================================
 # 🛡️ 1. STRICT CORS POLICY (SECURITY) 🛡️
 # ==========================================
-CORS(app, resources={r"/api/*": {"origins": ["https://video-downloader-xi-two.vercel.app"]}})
+CORS(app, resources={r"/api/*": {
+    "origins": [
+        "https://downsocial.net",
+        "https://www.downsocial.net",
+        "https://video-downloader-xi-two.vercel.app",
+        "https://facebook-video-downloader-wine.vercel.app"
+    ]
+}})
 
 compress = Compress()
 compress.init_app(app)
@@ -93,6 +100,7 @@ ALLOWED_HOST_SUFFIXES = (
     # TikTok / ByteDance
     "tiktokcdn.com", "tiktokcdn-us.com", "tiktokcdn-eu.com", "tiktok.com",
     "byteoversea.com", "ibyteimg.com", "musical.ly",
+    "muscdn.com", "tiktokv.com", "tiktokv.us",
     # Google / YouTube
     "googlevideo.com", "ytimg.com", "youtube.com", "youtu.be",
     "googleusercontent.com",
@@ -156,6 +164,7 @@ def is_safe_media_url(url: str) -> bool:
         # Enforce authorized media CDN domain allow-list
         is_allowed = any(hostname == domain or hostname.endswith("." + domain) for domain in ALLOWED_HOST_SUFFIXES)
         if not is_allowed:
+            logging.warning(f"[SSRF BLOCKED] Media host not in allow-list: {hostname}")
             return False
 
         # Verify resolved IP addresses are not private/reserved
@@ -264,8 +273,56 @@ def get_platform_prefix(url):
         return 'FB'
     return 'Downsocial'
 
+def get_platform_request_headers(url, extra_headers=None):
+    """
+    Constructs platform-optimized headers including required Referer for TikTok,
+    Instagram, Facebook, and YouTube CDN media streams.
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+        'Accept': '*/*',
+        'Accept-Encoding': 'identity'
+    }
+    url_low = (url or '').lower()
+    
+    # TikTok / ByteDance CDN requires Referer https://www.tiktok.com/
+    if any(k in url_low for k in ['tiktok', 'muscdn', 'tiktokv', 'byteoversea', 'ibyteimg']):
+        headers['Referer'] = 'https://www.tiktok.com/'
+    # Instagram CDN
+    elif any(k in url_low for k in ['instagram', 'cdninstagram', 'instagr.am']):
+        headers['Referer'] = 'https://www.instagram.com/'
+    # Facebook CDN
+    elif any(k in url_low for k in ['facebook', 'fbcdn.net', 'fb.watch', 'fb.gg']):
+        headers['Referer'] = 'https://www.facebook.com/'
+    # YouTube CDN
+    elif any(k in url_low for k in ['youtube', 'googlevideo', 'ytimg', 'youtu.be']):
+        headers['Referer'] = 'https://www.youtube.com/'
+
+    if extra_headers:
+        headers.update(extra_headers)
+    return headers
+
 def get_ydl_options():
-    cookies_file = os.path.join(os.path.dirname(__file__), 'cookies.txt')
+    # Render Secret Files mount at /etc/secrets/<filename> — check there first,
+    # fall back to local dir for other hosts/local dev
+    possible_cookie_paths = [
+        '/etc/secrets/cookies.txt',
+        '/etc/secrets/cookies',
+        '/etc/secrets/cookies_1.txt',
+        '/etc/secrets/cookies 1',
+        '/etc/secrets/cookies_2.txt',
+        '/etc/secrets/cookies 2',
+        '/etc/secrets/cookies_3.txt',
+        '/etc/secrets/cookies 3',
+        os.path.join(os.path.dirname(__file__), 'cookies.txt'),
+        os.path.join(os.path.dirname(__file__), 'cookies'),
+        os.path.join(os.path.dirname(__file__), 'cookies_1.txt'),
+        os.path.join(os.path.dirname(__file__), 'cookies 1')
+    ]
+    
+    existing_cookie_files = [p for p in possible_cookie_paths if os.path.exists(p) and os.path.isfile(p)]
+    cookies_file = existing_cookie_files[0] if existing_cookie_files else None
+
     opts = {
         'quiet': True,
         'no_warnings': True,
@@ -290,9 +347,11 @@ def get_ydl_options():
             'Sec-Fetch-Mode': 'navigate'
         }
     }
-    if os.path.exists(cookies_file):
+    if cookies_file:
         opts['cookiefile'] = cookies_file
         logging.info(f"[COOKIES] Auto-loaded cookies from: {cookies_file}")
+    else:
+        logging.warning("[COOKIES] No cookies.txt found — YouTube requests may hit bot detection on datacenter IPs")
     return opts
 
 # ==========================================
@@ -462,9 +521,7 @@ def direct_download():
             ffmpeg_bin = get_ffmpeg_path()
             bitrate = '192k' if quality == 'hq' else '128k'
             
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-            }
+            headers = get_platform_request_headers(file_url)
 
             cmd = [
                 ffmpeg_bin,
@@ -550,16 +607,31 @@ def direct_download():
     # --- STANDARD VIDEO/IMAGE STREAMING PROXY ---
     try:
         range_header = request.headers.get('Range', None)
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
-            'Accept-Encoding': 'identity'
-        }
-        
-        if range_header:
-            headers['Range'] = range_header
+        extra_h = {'Range': range_header} if range_header else None
+        headers = get_platform_request_headers(file_url, extra_headers=extra_h)
 
         req = http_session.get(file_url, stream=True, headers=headers, timeout=(5, 30))
         
+        # 1. Upstream Error Handling (reject upstream 403, 404, etc.)
+        if req.status_code not in (200, 206):
+            req.close()
+            logging.error(f"[PROXY UPSTREAM ERROR] Status {req.status_code} for {file_url}")
+            return jsonify({"error": "Media source rejected the request (upstream error)."}), 502
+
+        # 2. Content-Length & Content-Type Validation (prevent streaming 510-byte corrupt error pages)
+        content_type = req.headers.get('content-type', '').lower()
+        content_length_str = req.headers.get('Content-Length', '0')
+        try:
+            content_length = int(content_length_str)
+        except ValueError:
+            content_length = 0
+
+        if file_type in ['mp4', 'webm', 'mov', 'video']:
+            if 'text/html' in content_type or (0 < content_length < 50000):
+                req.close()
+                logging.error(f"[PROXY CORRUPT STREAM] Rejected small/HTML response (len: {content_length}, type: {content_type}) for {file_url}")
+                return jsonify({"error": "Media source returned invalid or blocked stream from CDN."}), 502
+
         type_tag = 'Image' if file_type in ['jpg', 'jpeg', 'png', 'webp'] else 'Video'
         resp_headers = {
             'Content-Disposition': f'attachment; filename="{prefix}_{type_tag}_{timestamp_id}.{file_type}"',
@@ -572,7 +644,7 @@ def direct_download():
         if 'Content-Range' in req.headers:
             resp_headers['Content-Range'] = req.headers['Content-Range']
 
-        status_code = req.status_code if req.status_code in [200, 206] else 200
+        status_code = req.status_code
 
         def generate_chunks():
             try:
